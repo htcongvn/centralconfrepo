@@ -1,0 +1,12 @@
+api:
+   test:
+      response: This is the testing value
+
+eureka: 
+   client: 
+      serviceUrl:
+          defaultZone: http://eureka:eureka@eureka:8761/eureka/,http://eureka:eureka@eureka-backup:8762/eureka/
+
+management:
+    security:
+         roles: ACTUATOR
