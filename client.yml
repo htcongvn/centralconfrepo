@@ -1,6 +1,6 @@
 api:
    test:
-      response: This is the testing value
+      response: This is the testing value from central repo at github
 
 eureka: 
    client: 
