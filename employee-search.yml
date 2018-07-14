@@ -2,9 +2,6 @@ eureka:
    client: 
       serviceUrl:
           defaultZone: http://eureka:eureka@eureka:8761/eureka/,http://eureka:eureka@eureka-backup:8762/eureka/
-   instance:
-      preferIpAddress: true
-      
 spring:
   rabbitmq:
     host: rabbit
