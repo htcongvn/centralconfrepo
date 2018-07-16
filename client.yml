@@ -1,6 +1,6 @@
 api:
    test:
-      response: This is the value at git repo centralconfrepo UPDATE2.1.8
+      response: This is the value at git repo centralconfrepo UPDATE2.1.9
 eureka: 
    client: 
       serviceUrl:
