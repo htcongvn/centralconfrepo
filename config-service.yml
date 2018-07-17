@@ -20,5 +20,5 @@ eureka:
   client:
     registerWithEureka: true
     fetchRegistry: true
-      serviceUrl:
-          defaultZone: http://eureka:eureka@eureka:8761/eureka/,http://eureka:eureka@eureka-backup:8762/eureka/
+    serviceUrl:
+      defaultZone: http://eureka:eureka@eureka:8761/eureka/,http://eureka:eureka@eureka-backup:8762/eureka/
