@@ -1,20 +1,11 @@
 api:
    test:
       response: This is the value at git repo centralconfrepo UPDATE2.1.12
-eureka: 
-   client: 
+eureka:
+  client:
+    registerWithEureka: true
+    fetchRegistry: true
       serviceUrl:
           defaultZone: http://eureka:eureka@eureka:8761/eureka/,http://eureka:eureka@eureka-backup:8762/eureka/
-spring:
-  rabbitmq:
-    host: rabbit
-    port: 5672
-    username: user
-    password: secret
-security:
-      user:
-        name: admin
-        password: secret
-management:
-    security:
-         roles: ACTUATOR
+  instance:
+    preferIpAddress: true
