@@ -1,6 +1,6 @@
 api:
    test:
-      response: This is the value at git repo centralconfrepo UPDATE2.1.13
+      response: This is the value at git repo centralconfrepo UPDATE2.1.14
 eureka:
   client:
     registerWithEureka: true
