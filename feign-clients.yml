@@ -1,6 +1,6 @@
 api:
    test:
-      response: This is the value at git repo centralconfrepo USING-FEIGN4.5
+      response: This is the value at git repo centralconfrepo USING-FEIGN4.6
 eureka:
   client:
     registerWithEureka: true
