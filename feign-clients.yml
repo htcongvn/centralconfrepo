@@ -1,6 +1,6 @@
 api:
    test:
-      response: This is the value at git repo centralconfrepo USING-FEIGN4.7
+      response: This is the value at git repo centralconfrepo USING-FEIGN4.8
 spring:
   cloud:
     inetutils:
