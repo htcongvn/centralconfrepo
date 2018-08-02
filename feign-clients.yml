@@ -9,7 +9,7 @@ spring:
         - 10.0
 eureka:
   instance:
-    instance-id: ${spring.cloud.client.hostname}:${spring.cloud.client.ipAddress}:${spring.application.name}:${spring.application.instance_id:${server.port}:${random.value}}  
+    instance-id: ${spring.cloud.client.hostname}:${spring.application.name}:${spring.application.instance_id:${server.port}:${random.value}}  
     preferIpAddress: true
     leaseRenewalIntervalInSeconds: 1
     leaseExpirationDurationInSeconds: 2
