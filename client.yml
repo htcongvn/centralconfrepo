@@ -1,6 +1,6 @@
 api:
    test:
-      response: This is the value at git repo centralconfrepo UPDATE2.1.19
+      response: This is the value at git repo centralconfrepo UPDATE2.1.21
 spring:
   cloud:
     inetutils:
