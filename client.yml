@@ -1,6 +1,6 @@
 api:
    test:
-      response: This is the value at git repo centralconfrepo UPDATE2.1.20
+      response: This is the value at git repo centralconfrepo UPDATE2.1.21
 spring:
   cloud:
     inetutils:
@@ -10,8 +10,13 @@ spring:
 eureka:
   instance:
     preferIpAddress: true
+    leaseRenewalIntervalInSeconds: 1
+    leaseExpirationDurationInSeconds: 2
   client:
     registerWithEureka: true
     fetchRegistry: true
     serviceUrl:
        defaultZone: http://eureka:eureka@eureka:8761/eureka/,http://eureka:eureka@eureka-backup:8762/eureka/
+ribbon:
+  eureka:
+    enabled: true
