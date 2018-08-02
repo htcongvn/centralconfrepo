@@ -1,6 +1,6 @@
 api:
    test:
-      response: This is the value at git repo centralconfrepo UPDATE2.1.22
+      response: This is the value at git repo centralconfrepo UPDATE2.1.20
 spring:
   cloud:
     inetutils:
@@ -15,6 +15,3 @@ eureka:
     fetchRegistry: true
     serviceUrl:
        defaultZone: http://eureka:eureka@eureka:8761/eureka/,http://eureka:eureka@eureka-backup:8762/eureka/
-ribbon:
-  eureka:
-    enabled: true
