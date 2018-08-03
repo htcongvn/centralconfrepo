@@ -3,7 +3,9 @@ spring:
     inetutils:
       ignoredInterfaces:
         - docker0
-        - veth.*
+        - docker_gwbridge
+        - lo
+        - veth*
       preferredNetworks:
         - 192.168
         - 10.0
