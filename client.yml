@@ -4,6 +4,11 @@ api:
 spring:
   cloud:
     inetutils:
+      ignoredInterfaces:
+        - docker0
+        - docker_gwbridge
+        - lo
+        - veth*    
       preferredNetworks:
         - 192.168
         - 10.0
