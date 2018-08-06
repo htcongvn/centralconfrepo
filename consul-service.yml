@@ -1,5 +1,14 @@
 spring:
   cloud:
+    inetutils:
+      ignoredInterfaces:
+        - docker0
+        - docker_gwbridge
+        - lo
+        - veth*    
+      preferredNetworks:
+        - 192.168
+        - 10.0  
     consul:
       host: 192.168.99.100
       port: 8500
