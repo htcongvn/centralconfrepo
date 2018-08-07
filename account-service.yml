@@ -5,3 +5,7 @@ spring:
     level:
       org.springframework: WARN
       org.hibernate: WARN
+  sleuth:
+    log:
+      json:
+        enabled: true
